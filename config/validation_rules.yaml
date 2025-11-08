@@ -1,0 +1,17 @@
+columns:
+  - name: customer_id
+    dtype: int
+    required: true
+
+  - name: name
+    dtype: str
+    required: true
+
+  - name: age
+    dtype: int
+    min: 18
+    max: 100
+
+  - name: email
+    dtype: str
+    pattern: "^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,}$"

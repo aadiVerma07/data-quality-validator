@@ -1,57 +1,36 @@
-# 🧠 Data Quality Validator
+#Data Quality Validator
 
-A lightweight **Python-based ETL utility** that validates raw data files (CSV/JSON) for schema consistency, nulls, duplicates, and data type mismatches before loading.  
-Designed for data engineers who want a reusable pre-validation step in ETL pipelines.
+A modular **Python-based Data Quality Validation Framework** designed to ensure accuracy, completeness, and consistency of data before it enters analytical or ETL pipelines.
 
----
-
-## 📘 Overview
-In real-world ETL systems, poor-quality data can break downstream analytics.  
-This project provides a configurable **Data Quality Validator** that checks data before it enters your warehouse or analytics layer.
-
-The validator:
-- Reads a file (CSV/JSON)
-- Validates column schema & data types
-- Detects nulls, duplicates, invalid ranges
-- Generates summary reports and logs results
+This project validates datasets (CSV, Excel, Database, or API outputs) against configurable rules and generates detailed quality reports — helping data engineers and analysts maintain **trustworthy, clean, and reliable data**.
 
 ---
 
-## 🧱 Architecture
+## Features
 
-+--------------------+
-| Raw Data (CSV/JSON)| --> validation_rules.yaml
-+--------------------+
-|
-▼
-+---------------------+
-| Data Quality Check |
-| (Python + Pandas) |
-+---------------------+
-|
-▼
-+--------------------+
-| Logs & Reports |
-+--------------------+
+**Config-Driven Architecture** – Easily define validation rules and datasets in YAML/JSON.  
+**Rule-Based Validation** – Supports common checks like nulls, duplicates, data type mismatches, regex patterns, and range limits.  
+**Dynamic Reporting** – Generates summary and detailed reports in HTML and CSV format.  
+**Logging Framework** – Integrated logging for debugging and audit tracking.  
+**Modular Design** – Built with scalable and testable architecture (core, utils, config, reports).  
+**CLI or Script Execution** – Run validations via command line or integrate as a library in ETL jobs.  
 
----
+## Future Enhancements
 
-## ⚙️ Tech Stack
-| Component | Technology |
-|------------|-------------|
-| **Language** | Python 3 |
-| **Libraries** | Pandas, PyYAML, Logging, argparse |
-| **Data Sources** | CSV, JSON |
-| **Output** | Console + Report file (CSV) |
+- Add FastAPI integration for API-based validation triggers  
+- Add database connectors (MySQL, PostgreSQL, AlloyDB, etc.)  
+- Integrate Kafka for real-time validation  
+- Add ML-based anomaly detection module  
+- Create scheduling & monitoring dashboard  
 
----
+## Author
 
-## 🧩 Features
-✅ Configurable validation rules (in YAML)  
-✅ Checks for nulls, duplicates, invalid data types  
-✅ Logs invalid rows to separate files  
-✅ Generates summary report with pass/fail counts  
-✅ Modular code structure for easy reuse  
+**Aditya Kumar**  
+Associate Software Engineer @ Accenture  
+🎓 B.Tech in Computer Science (AKTU, 2023)  
+📍 Lucknow, India  
 
----
+📧 [email](mailto:aadikumar.world@gmail.com)  
+🌐 [LinkedIn](https://www.linkedin.com/in/adityabkumar/) | [GitHub](https://github.com/aadiVerma07)
+
 

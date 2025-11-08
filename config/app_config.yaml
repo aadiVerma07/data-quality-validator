@@ -1,0 +1,6 @@
+app:
+  input_dir: "data/input/"
+  output_dir: "data/output/"
+  rules_file: "config/validation_rules.yaml"
+  log_file: "data/output/validation.log"
+  file_types: ["csv"] 

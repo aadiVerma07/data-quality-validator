@@ -1,0 +1,6 @@
+row_no,column,error,value
+4,name,Missing required value,
+5,age,Out of range (18-100),17.0
+11,age,Out of range (18-100),101.0
+3,email,Invalid pattern,rajesh.verma@
+6,email,Invalid pattern,aman.gupta@example

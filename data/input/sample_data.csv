@@ -1,0 +1,11 @@
+customer_id,name,age,email,city
+101,Aditya Kumar,25,aditya.kumar@example.com,Lucknow
+102,Rajesh Verma,31,rajesh.verma@,Delhi
+103,,28,neha.sharma@example.com,Noida
+104,Sunita Singh,17,sunita.singh@example.com,Mumbai
+105,Aman Gupta,45,aman.gupta@example,Lucknow
+106,Ananya Roy,23,ananya.roy@example.com,Kolkata
+107,Ravi Patel,,ravi.patel@example.com,Jaipur
+108,Neha Sharma,30,neha.sharma@example.com,
+109,Rahul Yadav,29,rahul.yadav@example.com,Delhi
+110,Rajiv Tandon,101,rajiv.tandon@example.com,Mumbai

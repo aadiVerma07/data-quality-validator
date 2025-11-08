@@ -1,0 +1,20 @@
+2025-11-09 00:31:10,952 [INFO] Starting multi-file validation with row-level tracking...
+2025-11-09 00:31:10,960 [INFO] Validating: sample_data.csv
+2025-11-09 00:31:10,965 [INFO] sample_data.csv complete | Score: 92 | Invalid Rows: 5
+2025-11-09 00:31:10,965 [INFO] Master summary with row-level stats saved.
+2025-11-09 00:49:07,653 [INFO] Starting multi-file validation with row-level tracking...
+2025-11-09 00:49:07,684 [INFO] Validating: sample_data.csv
+2025-11-09 00:49:07,800 [INFO] Invalid record file saved: sample_data_invalid.csv
+2025-11-09 00:49:07,851 [INFO] Column-level summary saved for sample_data.csv
+2025-11-09 00:49:07,865 [INFO] sample_data.csv complete | Score: 92 | Invalid Rows: 5
+2025-11-09 00:49:07,865 [INFO] Master summary with row-level stats saved successfully.
+2025-11-09 01:00:44,480 [INFO] Starting multi-file validation with row-level tracking...
+2025-11-09 01:00:44,491 [INFO] Validating: sample_data.csv
+2025-11-09 01:00:44,507 [INFO] Invalid record file saved: sample_data_invalid.csv
+2025-11-09 01:00:44,522 [INFO] Column-level summary saved for sample_data.csv
+2025-11-09 01:00:44,522 [INFO] sample_data.csv complete | Score: 92 | Invalid Rows: 5
+2025-11-09 01:00:44,573 [INFO] Validating: sample_users.csv
+2025-11-09 01:00:44,605 [INFO] Invalid record file saved: sample_users_invalid.csv
+2025-11-09 01:00:44,973 [INFO] Column-level summary saved for sample_users.csv
+2025-11-09 01:00:44,973 [INFO] sample_users.csv complete | Score: 94 | Invalid Rows: 989
+2025-11-09 01:00:44,976 [INFO] Master summary with row-level stats saved successfully.
