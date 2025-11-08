@@ -59,3 +59,7 @@ Associate Software Engineer @ Accenture
 🌐 [LinkedIn](https://www.linkedin.com/in/adityabkumar/) | [GitHub](https://github.com/aadiVerma07)
 
 
+⭐ **If you found this project useful, please give it a star!**  
+Your support encourages more open-source work
+
+
