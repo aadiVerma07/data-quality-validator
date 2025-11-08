@@ -42,11 +42,12 @@ Column-level and row-level validation details with specific failed values and er
 
 ## Future Enhancements
 
-- Add FastAPI integration for API-based validation triggers  
-- Add database connectors (MySQL, PostgreSQL, AlloyDB, etc.)  
-- Integrate Kafka for real-time validation  
-- Add ML-based anomaly detection module  
-- Create scheduling & monitoring dashboard  
+- [ ] Add **FastAPI integration** for API-based validation triggers  
+- [ ] Add **database connectors** (MySQL, PostgreSQL, AlloyDB, etc.)  
+- [ ] Integrate **Kafka** for real-time validation  
+- [ ] Add **ML-based anomaly detection** module  
+- [ ] Create **scheduling & monitoring dashboard**
+ 
 
 ## Author
 
